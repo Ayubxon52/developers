@@ -1,0 +1,335 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+ul,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* header */
+header {
+    position: relative;
+  }
+
+.header__bg{
+    width: 100%;
+    height: 100vh;
+    z-index: 99;
+}
+
+/* navbar */
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    padding: 30px  0;
+}
+
+nav .container img{
+    width: 70px;
+    height: 70px;
+}
+
+.nav__list{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    width: 50%;
+}
+
+.nav__list .nav__link {
+    color: #fff;
+    font-size: 18px;
+    line-height: 23px;
+    transition: all 0.1s ease;
+}
+
+.nav__list .nav__link:hover {
+    color: #076CF0;
+    transition: all 0.3s ease;
+}
+
+/* header__Content */
+
+.header__content {
+    position: absolute;
+    top: 30%;
+    left: 14%;
+    width: 40%;
+    text-align: left;
+}
+
+.header__title h1 {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 105px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.header__title p {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 73%;
+  color: #868686;
+}
+
+/* header__boxs */
+
+.header__boxs  {
+    position: absolute;
+    bottom: -100px;
+    z-index: 100;
+    left: 0;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.header__box {
+    flex-direction: column;
+}
+
+.header__box div {
+    height: 168px;
+    width: 250px;
+    background: #fff;
+    box-shadow: 0px 15px 60px #DF8CC4;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+
+.header__box h3 {
+    margin-top: 20px;
+    font-weight: 400 !important;
+    font-size: 25px;    
+    line-height: 32px;
+}
+
+/* section Hero */
+.hero{
+  padding-top: 130px;
+  padding-bottom: 26px;
+}
+.hero .section__title{
+  color: #000;
+}
+.section__hero img{
+  width: 100%;
+}
+.main{
+  width: 330px;
+}
+.main .section__text{
+  padding-top: 55px;
+}
+
+.list{
+  padding-top: 26px;
+  padding-bottom: 60px;
+}
+
+.menu h1{
+  padding-bottom: 26px;
+}
+.menu__item{
+  padding-right: 106px;
+}
+.section__hero{
+  position: relative;
+}
+
+section.main__boxs {
+  padding: 0; 
+  padding-top: 250px;
+}
+
+.main__boxs .container{
+  position: relative;
+}
+
+
+.main__boxs-content {
+  width: 100%;
+  position: absolute;
+  bottom: -60px;
+}
+
+.main__box{
+  flex-direction: column;
+  text-align: center;
+  width: 30%;
+  color: #868686;
+}
+
+
+
+.main__box div{
+  padding: 50px 0;
+  background: #fff;
+  box-shadow: 0px 15px 60px #DF8CC4;
+  border-radius: 10px;
+  padding-bottom: 37px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main__box-title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+/* footer */
+
+
+footer {
+  padding-top: 200px;
+  background-color: #000;
+}
+footer .section__title{
+  color: #fff;
+}
+
+.footer__form {
+  width: 100%;
+}
+
+.footer__input{
+  width: 100%;
+  height: 30px;
+}
+.footer__input input{
+  width: 30%;
+  background-color: black;
+  border: none;
+  border-bottom: 1px solid white;
+}
+.footer__massage{
+  width: 100%;
+  padding-top: 56px;
+  padding-bottom: 52px;
+}
+.footer__massage input{
+  width: 100%;
+  background-color: black;
+  border: none;
+  border-bottom: 1px solid white; 
+}
+.footer__number{
+  width: 25%;
+  padding-top: 100px;
+  padding-bottom: 92px;
+  display: flex;
+  align-items: flex-start;
+}
+.footer__number ul{
+  color: white;
+  padding-right: 5px;
+  margin-left: 20px;
+}
+
+.footer__number ul li {
+  margin-bottom: 5px;
+}
+
+.footer__menu{
+  width: 100%;
+  height: 30px;
+  background-color: #000;
+  color: white;
+}
+.footer__menu .row{
+  width: 70%;
+}
+
+/* section */
+section {
+  padding: 100px 0;
+}
+
+
+.section__btn {
+  background: #076cf0;
+  border-radius: 50px;
+  padding: 13px 31px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 3px;
+  color: #ffffff;
+}
+
+.section__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  color: #868686;
+}
+.section__title h1 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  padding-right: 10px;
+  border: none;
+  position: relative;
+}
+.section__title h1::after{
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: -25px;
+  width: 2px;
+  height: 100%;
+  border-left: 4px solid blue;
+}
+.section__title p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #868686;
+}
+
+
+
+
+/* flex
+    div
+ .....hammasini 
+
+ position 
+ absolute fixed relative 
+
+ wu sayt tayyor boliwi kk
+*/
+
+
+/*
+
+umumiy classlar hosil qiliwni oyla
+
+iloji boricha ortiqca kod yozma
+
+kodlaring tartib bilani joylawgan bosin,
+
+*/
+
